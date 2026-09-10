@@ -1,0 +1,52 @@
+# Icons are written as YAML \u escapes so this file stays plain ASCII.
+# Every codepoint below was checked against Cozette v1.30.0's cmap.
+#
+# Rules are tried in order and the regex is matched against the window
+# TITLE before app_id, so the "micro ..." rules must stay above "foot".
+clients:
+  # --- micro, by file extension -------------------------------------
+  "micro .*\\.py$":                  "\uE73C"   # dev-python
+  "micro .*\\.c$":                   "\uE61E"   # custom-c
+  "micro .*\\.h$":                   "\uE61E"
+  "micro .*\\.(cpp|cc|cxx|hpp)$":    "\uE61D"   # custom-cpp
+  "micro .*\\.rs$":                  "\uE7A8"   # dev-rust
+  "micro .*\\.go$":                  "\uE627"   # seti-go
+  "micro .*\\.zig$":                 "\uE6A9"   # seti-zig
+  "micro .*\\.lua$":                 "\uE620"   # seti-lua
+  "micro .*\\.hs$":                  "\uE777"   # dev-haskell
+  "micro .*\\.jl$":                  "\uE624"   # seti-julia
+  "micro .*\\.rb$":                  "\uE739"   # dev-ruby
+  "micro .*\\.php$":                 "\uE73D"   # dev-php
+  "micro .*\\.p[lm]$":               "\uE769"   # dev-perl
+  "micro .*\\.java$":                "\uE738"   # dev-java
+  "micro .*\\.(js|mjs|cjs)$":        "\uE781"   # dev-javascript
+  "micro .*\\.ts$":                  "\uE628"   # seti-typescript
+  "micro .*\\.html?$":               "\uE736"   # dev-html5
+  "micro .*\\.css$":                 "\uE749"   # dev-css3
+  "micro .*\\.json$":                "\uE60B"   # seti-json
+  "micro .*\\.xml$":                 "\uE619"   # seti-xml
+  "micro .*\\.md$":                  "\uE73E"   # dev-markdown
+  "micro .*\\.(ya?ml|toml|ini|conf|cfg)$": "\uE615"   # seti-config
+  "micro .*\\.(sh|bash|zsh)$":       "\uE795"   # dev-terminal
+  "micro .*\\.sql$":                 "\uE7C4"   # dev-sqlite
+  "micro .*\\.vim$":                 "\uE7C5"   # dev-vim
+  "micro .*\\.tal$":                 "\uE612"   # custom-default (uxntal)
+  "micro .*[Dd]ockerfile.*$":        "\uE7B0"   # dev-docker
+  "micro .*":                        "\uE64E"   # seti-text (any other file)
+
+  # --- everything else ----------------------------------------------
+  google-chrome-beta: chrome
+  firefox: firefox
+  dillo: globe
+  x-terminal-emulator: terminal
+  foot: terminal
+  thunderbird: envelope
+  nautilus: folder-open
+  clementine: music
+  vlc: play
+  signal: comment
+  code-oss: code
+  uxn-wl: swap
+  m291: play
+deliminator: " "
+default_icon: circle

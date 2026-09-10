@@ -1,0 +1,634 @@
+Icon glyphs present in Cozette v1.30.0 (from the released cozette.bdf cmap).
+Names come from the Nerd Fonts glyphnames.json; a codepoint with several
+names lists them all. Grouped by family, sorted by codepoint.
+
+582 icons (482 named, 100 unnamed) out of 6046 glyphs in the font.
+
+Use in sdn-config.yaml as a YAML escape, e.g.  "\uE73C"
+
+== Font Awesome  (166) ======================================
+
+  U+0F001    \uF001      fa-music
+  U+0F005    \uF005      fa-star
+  U+0F007    \uF007      fa-user
+  U+0F008    \uF008      fa-film
+  U+0F00B    \uF00B      fa-table_list, fa-th_list
+  U+0F00C    \uF00C      fa-check
+  U+0F00D    \uF00D      fa-close, fa-remove, fa-times, fa-xmark
+  U+0F013    \uF013      fa-cog, fa-gear
+  U+0F014    \uF014      fa-trash_can, fa-trash_o
+  U+0F015    \uF015      fa-home, fa-house
+  U+0F016    \uF016      fa-file_o
+  U+0F017    \uF017      fa-clock, fa-clock_o
+  U+0F01A    \uF01A      fa-arrow_circle_o_down, fa-circle_down
+  U+0F01B    \uF01B      fa-arrow_circle_o_up, fa-circle_up
+  U+0F01C    \uF01C      fa-inbox
+  U+0F023    \uF023      fa-lock
+  U+0F025    \uF025      fa-headphones
+  U+0F026    \uF026      fa-volume_off
+  U+0F027    \uF027      fa-volume_down, fa-volume_low
+  U+0F028    \uF028      fa-volume_high, fa-volume_up
+  U+0F02B    \uF02B      fa-tag
+  U+0F02D    \uF02D      fa-book
+  U+0F031    \uF031      fa-font
+  U+0F032    \uF032      fa-bold
+  U+0F033    \uF033      fa-italic
+  U+0F034    \uF034      fa-text_height
+  U+0F035    \uF035      fa-text_width
+  U+0F03A    \uF03A      fa-list
+  U+0F03D    \uF03D      fa-video, fa-video_camera
+  U+0F03E    \uF03E      fa-image, fa-photo, fa-picture_o
+  U+0F040    \uF040      fa-pencil
+  U+0F048    \uF048      fa-backward_step, fa-step_backward
+  U+0F049    \uF049      fa-backward_fast, fa-fast_backward
+  U+0F04A    \uF04A      fa-backward
+  U+0F04B    \uF04B      fa-play
+  U+0F04C    \uF04C      fa-pause
+  U+0F04D    \uF04D      fa-stop
+  U+0F04E    \uF04E      fa-forward
+  U+0F050    \uF050      fa-fast_forward, fa-forward_fast
+  U+0F051    \uF051      fa-forward_step, fa-step_forward
+  U+0F052    \uF052      fa-eject
+  U+0F053    \uF053      fa-chevron_left
+  U+0F054    \uF054      fa-chevron_right
+  U+0F055    \uF055      fa-circle_plus, fa-plus_circle
+  U+0F056    \uF056      fa-circle_minus, fa-minus_circle
+  U+0F057    \uF057      fa-remove_sign, fa-times_circle
+  U+0F058    \uF058      fa-check_circle, fa-ok_sign
+  U+0F059    \uF059      fa-circle_question, fa-question_circle
+  U+0F05A    \uF05A      fa-circle_info, fa-info_circle
+  U+0F064    \uF064      fa-mail_forward, fa-share
+  U+0F067    \uF067      fa-plus
+  U+0F068    \uF068      fa-minus
+  U+0F069    \uF069      fa-asterisk
+  U+0F06A    \uF06A      fa-circle_exclamation, fa-exclamation_circle
+  U+0F071    \uF071      fa-exclamation_triangle, fa-triangle_exclamation, fa-warning
+  U+0F073    \uF073      fa-calendar, fa-calendar_days
+  U+0F075    \uF075      fa-comment
+  U+0F076    \uF076      fa-magnet
+  U+0F07B    \uF07B      fa-folder
+  U+0F07C    \uF07C      fa-folder_open
+  U+0F080    \uF080      fa-bar_chart, fa-bar_chart_o, fa-chart_bar
+  U+0F084    \uF084      fa-key
+  U+0F085    \uF085      fa-cogs, fa-gears
+  U+0F09A    \uF09A      fa-facebook
+  U+0F09C    \uF09C      fa-unlock
+  U+0F09E    \uF09E      fa-feed, fa-rss
+  U+0F0A0    \uF0A0      fa-hard_drive, fa-hdd_o
+  U+0F0A2    \uF0A2      fa-bell_o
+  U+0F0A8    \uF0A8      fa-arrow_circle_left, fa-circle_arrow_left
+  U+0F0A9    \uF0A9      fa-arrow_circle_right, fa-circle_arrow_right
+  U+0F0AA    \uF0AA      fa-arrow_circle_up, fa-circle_arrow_up
+  U+0F0AB    \uF0AB      fa-arrow_circle_down, fa-circle_arrow_down
+  U+0F0AC    \uF0AC      fa-globe
+  U+0F0AE    \uF0AE      fa-list_check, fa-tasks
+  U+0F0B0    \uF0B0      fa-filter
+  U+0F0C3    \uF0C3      fa-flask
+  U+0F0C4    \uF0C4      fa-cut, fa-scissors
+  U+0F0C5    \uF0C5      fa-copy, fa-files_o
+  U+0F0E4    \uF0E4      fa-dashboard, fa-gauge_simple_high, fa-tachometer
+  U+0F0E7    \uF0E7      fa-bolt, fa-flash
+  U+0F0F3    \uF0F3      fa-bell
+  U+0F0F4    \uF0F4      fa-coffee, fa-mug_saucer
+  U+0F0F6    \uF0F6      fa-file_text_o
+  U+0F0FD    \uF0FD      fa-h_square, fa-square_h
+  U+0F108    \uF108      fa-desktop
+  U+0F111    \uF111      fa-circle
+  U+0F113    \uF113      fa-github_alt
+  U+0F114    \uF114      fa-folder_o
+  U+0F115    \uF115      fa-folder_open_o
+  U+0F11C    \uF11C      fa-keyboard, fa-keyboard_o
+  U+0F120    \uF120      fa-terminal
+  U+0F121    \uF121      fa-code
+  U+0F126    \uF126      fa-code_branch, fa-code_fork
+  U+0F128    \uF128      fa-question
+  U+0F130    \uF130      fa-microphone
+  U+0F131    \uF131      fa-microphone_slash
+  U+0F133    \uF133      fa-calendar_o
+  U+0F13B    \uF13B      fa-html5
+  U+0F13E    \uF13E      fa-unlock_alt, fa-unlock_keyhole
+  U+0F144    \uF144      fa-circle_play, fa-play_circle
+  U+0F155    \uF155      fa-dollar, fa-dollar_sign, fa-usd
+  U+0F15B    \uF15B      fa-file
+  U+0F15C    \uF15C      fa-file_lines, fa-file_text
+  U+0F15D    \uF15D      fa-arrow_down_a_z, fa-sort_alpha_asc
+  U+0F15E    \uF15E      fa-arrow_up_a_z, fa-sort_alpha_desc
+  U+0F16B    \uF16B      fa-dropbox
+  U+0F179    \uF179      fa-apple
+  U+0F17A    \uF17A      fa-windows
+  U+0F17B    \uF17B      fa-android
+  U+0F17C    \uF17C      fa-linux
+  U+0F185    \uF185      fa-sun, fa-sun_o
+  U+0F187    \uF187      fa-archive, fa-box_archive
+  U+0F188    \uF188      fa-bug
+  U+0F18D    \uF18D      fa-stack_exchange
+  U+0F198    \uF198      fa-slack
+  U+0F1AE    \uF1AE      fa-child
+  U+0F1B6    \uF1B6      fa-steam
+  U+0F1B7    \uF1B7      fa-square_steam, fa-steam_square
+  U+0F1BB    \uF1BB      fa-tree
+  U+0F1BD    \uF1BD      fa-deviantart
+  U+0F1C0    \uF1C0      fa-database
+  U+0F1C1    \uF1C1      fa-file_pdf, fa-file_pdf_o
+  U+0F1C2    \uF1C2      fa-file_word, fa-file_word_o
+  U+0F1C3    \uF1C3      fa-file_excel, fa-file_excel_o
+  U+0F1C4    \uF1C4      fa-file_powerpoint, fa-file_powerpoint_o
+  U+0F1C5    \uF1C5      fa-file_image, fa-file_image_o, fa-file_photo_o, fa-file_picture_o
+  U+0F1C6    \uF1C6      fa-file_archive_o, fa-file_zip_o, fa-file_zipper
+  U+0F1D3    \uF1D3      fa-git
+  U+0F1EA    \uF1EA      fa-newspaper, fa-newspaper_o
+  U+0F1EB    \uF1EB      fa-wifi
+  U+0F1F6    \uF1F6      fa-bell_slash
+  U+0F1F7    \uF1F7      fa-bell_slash_o
+  U+0F1F8    \uF1F8      fa-trash
+  U+0F1FA    \uF1FA      fa-at
+  U+0F1FE    \uF1FE      fa-area_chart, fa-chart_area
+  U+0F200    \uF200      fa-chart_pie, fa-pie_chart
+  U+0F201    \uF201      fa-chart_line, fa-line_chart
+  U+0F219    \uF219      fa-gem
+  U+0F233    \uF233      fa-server
+  U+0F240    \uF240      fa-battery, fa-battery_4, fa-battery_full
+  U+0F241    \uF241      fa-battery_3, fa-battery_three_quarters
+  U+0F242    \uF242      fa-battery_2, fa-battery_half
+  U+0F243    \uF243      fa-battery_1, fa-battery_quarter
+  U+0F244    \uF244      fa-battery_0, fa-battery_empty
+  U+0F250    \uF250      fa-hourglass_o
+  U+0F251    \uF251      fa-hourglass_1, fa-hourglass_start
+  U+0F252    \uF252      fa-hourglass_2, fa-hourglass_half
+  U+0F253    \uF253      fa-hourglass_3, fa-hourglass_end
+  U+0F254    \uF254      fa-hourglass
+  U+0F260    \uF260      fa-gg
+  U+0F268    \uF268      fa-chrome
+  U+0F269    \uF269      fa-firefox
+  U+0F26A    \uF26A      fa-opera
+  U+0F270    \uF270      fa-amazon
+  U+0F292    \uF292      fa-hashtag
+  U+0F293    \uF293      fa-bluetooth
+  U+0F294    \uF294      fa-bluetooth_b
+  U+0F296    \uF296      fa-gitlab
+  U+0F298    \uF298      fa-wpforms
+  U+0F2C7    \uF2C7      fa-temperature_full, fa-thermometer, fa-thermometer_4, fa-thermometer_full
+  U+0F2C8    \uF2C8      fa-temperature_three_quarters, fa-thermometer_3, fa-thermometer_three_quarters
+  U+0F2C9    \uF2C9      fa-temperature_half, fa-thermometer_2, fa-thermometer_half
+  U+0F2CA    \uF2CA      fa-temperature_quarter, fa-thermometer_1, fa-thermometer_quarter
+  U+0F2CB    \uF2CB      fa-temperature_empty, fa-thermometer_0, fa-thermometer_empty
+  U+0F2DB    \uF2DB      fa-microchip
+  U+0F2DC    \uF2DC      fa-snowflake, fa-snowflake_o
+
+== Material Design  (73) ===================================
+
+  U+F0002  󰀂  \U000F0002  md-access_point_network
+  U+F004C  󰁌  \U000F004C  md-arrow_expand_all
+  U+F006F  󰁯  \U000F006F  md-backup_restore
+  U+F0079  󰁹  \U000F0079  md-battery
+  U+F007A  󰁺  \U000F007A  md-battery_10
+  U+F007B  󰁻  \U000F007B  md-battery_20
+  U+F007C  󰁼  \U000F007C  md-battery_30
+  U+F007D  󰁽  \U000F007D  md-battery_40
+  U+F007E  󰁾  \U000F007E  md-battery_50
+  U+F007F  󰁿  \U000F007F  md-battery_60
+  U+F0080  󰂀  \U000F0080  md-battery_70
+  U+F0081  󰂁  \U000F0081  md-battery_80
+  U+F0082  󰂂  \U000F0082  md-battery_90
+  U+F0083  󰂃  \U000F0083  md-battery_alert
+  U+F0084  󰂄  \U000F0084  md-battery_charging
+  U+F0085  󰂅  \U000F0085  md-battery_charging_100
+  U+F0086  󰂆  \U000F0086  md-battery_charging_20
+  U+F0087  󰂇  \U000F0087  md-battery_charging_30
+  U+F0088  󰂈  \U000F0088  md-battery_charging_40
+  U+F0089  󰂉  \U000F0089  md-battery_charging_60
+  U+F008A  󰂊  \U000F008A  md-battery_charging_80
+  U+F008B  󰂋  \U000F008B  md-battery_charging_90
+  U+F008C  󰂌  \U000F008C  md-battery_minus_variant
+  U+F008D  󰂍  \U000F008D  md-battery_negative
+  U+F008E  󰂎  \U000F008E  md-battery_outline
+  U+F008F  󰂏  \U000F008F  md-battery_plus_variant
+  U+F0090  󰂐  \U000F0090  md-battery_positive
+  U+F0091  󰂑  \U000F0091  md-battery_unknown
+  U+F009A  󰂚  \U000F009A  md-bell
+  U+F009B  󰂛  \U000F009B  md-bell_off
+  U+F009C  󰂜  \U000F009C  md-bell_outline
+  U+F009D  󰂝  \U000F009D  md-bell_plus
+  U+F009E  󰂞  \U000F009E  md-bell_ring
+  U+F009F  󰂟  \U000F009F  md-bell_ring_outline
+  U+F00A0  󰂠  \U000F00A0  md-bell_sleep
+  U+F00C0  󰃀  \U000F00C0  md-bookmark
+  U+F00C1  󰃁  \U000F00C1  md-bookmark_check
+  U+F00C2  󰃂  \U000F00C2  md-bookmark_music
+  U+F00C3  󰃃  \U000F00C3  md-bookmark_outline
+  U+F00C4  󰃄  \U000F00C4  md-bookmark_plus_outline
+  U+F00C5  󰃅  \U000F00C5  md-bookmark_plus
+  U+F00C6  󰃆  \U000F00C6  md-bookmark_remove
+  U+F00F0  󰃰  \U000F00F0  md-calendar_clock
+  U+F0172  󰅲  \U000F0172  md-code_parentheses
+  U+F01A8  󰆨  \U000F01A8  md-cube_send
+  U+F01F0  󰇰  \U000F01F0  md-email_outline
+  U+F0232  󰈲  \U000F0232  md-filter
+  U+F029A  󰊚  \U000F029A  md-gauge
+  U+F02A2  󰊢  \U000F02A2  md-git
+  U+F02D1  󰋑  \U000F02D1  md-heart
+  U+F02D4  󰋔  \U000F02D4  md-heart_broken
+  U+F0306  󰌆  \U000F0306  md-key
+  U+F031B  󰌛  \U000F031B  md-language_csharp
+  U+F0320  󰌠  \U000F0320  md-language_python
+  U+F0411  󰐑  \U000F0411  md-playlist_play
+  U+F048B  󰒋  \U000F048B  md-server
+  U+F048D  󰒍  \U000F048D  md-server_network
+  U+F04B2  󰒲  \U000F04B2  md-sleep
+  U+F051F  󰔟  \U000F051F  md-timer_sand
+  U+F05AF  󰖯  \U000F05AF  md-window_maximize
+  U+F05B0  󰖰  \U000F05B0  md-window_minimize
+  U+F05C6  󰗆  \U000F05C6  md-vector_rectangle
+  U+F0645  󰙅  \U000F0645  md-file_tree
+  U+F06A5  󰚥  \U000F06A5  md-power_plug
+  U+F06A9  󰚩  \U000F06A9  md-robot
+  U+F072B  󰜫  \U000F072B  md-webpack
+  U+F07D4  󰟔  \U000F07D4  md-language_r
+  U+F0844  󰡄  \U000F0844  md-vuejs
+  U+F0A0A  󰨊  \U000F0A0A  md-powershell
+  U+F10FE  󱃾  \U000F10FE  md-kubernetes
+  U+F116B  󱅫  \U000F116B  md-bell_badge
+  U+F1211  󱈑  \U000F1211  md-battery_heart_variant
+  U+F1417  󱐗  \U000F1417  md-pail
+
+== Devicons  (70) ==========================================
+
+  U+0E702    \uE702      dev-git
+  U+0E703    \uE703      dev-bitbucket
+  U+0E706    \uE706      dev-database
+  U+0E707    \uE707      dev-dropbox
+  U+0E70C    \uE70C      dev-visualstudio
+  U+0E70E    \uE70E      dev-android
+  U+0E70F    \uE70F      dev-windows
+  U+0E711    \uE711      dev-apple
+  U+0E712    \uE712      dev-linux
+  U+0E716    \uE716      dev-codepen
+  U+0E718    \uE718      dev-nodejs_small
+  U+0E71E    \uE71E      dev-npm
+  U+0E725    \uE725      dev-git_branch
+  U+0E726    \uE726      dev-git_pull_request
+  U+0E727    \uE727      dev-git_merge
+  U+0E728    \uE728      dev-git_compare
+  U+0E729    \uE729      dev-git_commit
+  U+0E72D    \uE72D      dev-smashing_magazine
+  U+0E736    \uE736      dev-html5
+  U+0E737    \uE737      dev-scala
+  U+0E738    \uE738      dev-java
+  U+0E739    \uE739      dev-ruby
+  U+0E73A    \uE73A      dev-ubuntu
+  U+0E73B    \uE73B      dev-rails, dev-ruby_on_rails
+  U+0E73C    \uE73C      dev-python
+  U+0E73D    \uE73D      dev-php
+  U+0E73E    \uE73E      dev-markdown
+  U+0E73F    \uE73F      dev-laravel
+  U+0E743    \uE743      dev-chrome
+  U+0E745    \uE745      dev-firefox
+  U+0E746    \uE746      dev-opera
+  U+0E749    \uE749      dev-css3
+  U+0E74A    \uE74A      dev-css3_full
+  U+0E74E    \uE74E      dev-javascript_alt
+  U+0E755    \uE755      dev-swift
+  U+0E756    \uE756      dev-azuredevops
+  U+0E757    \uE757      dev-symfony, dev-symfony_badge
+  U+0E758    \uE758      dev-less
+  U+0E759    \uE759      dev-stylus
+  U+0E764    \uE764      dev-atom
+  U+0E768    \uE768      dev-clojure
+  U+0E769    \uE769      dev-perl
+  U+0E76A    \uE76A      dev-clojure_alt
+  U+0E76D    \uE76D      dev-redis
+  U+0E76E    \uE76E      dev-postgresql
+  U+0E777    \uE777      dev-haskell
+  U+0E779    \uE779      dev-gnu
+  U+0E77B    \uE77B      dev-heroku
+  U+0E77F    \uE77F      dev-dotnet
+  U+0E781    \uE781      dev-javascript, dev-javascript_badge
+  U+0E786    \uE786      dev-mozilla
+  U+0E791    \uE791      dev-ruby_rough
+  U+0E795    \uE795      dev-terminal
+  U+0E796    \uE796      dev-codeac
+  U+0E798    \uE798      dev-dart
+  U+0E79B    \uE79B      dev-contao
+  U+0E7A2    \uE7A2      dev-couchdb
+  U+0E7A3    \uE7A3      dev-cplusplus
+  U+0E7A7    \uE7A7      dev-fsharp
+  U+0E7A8    \uE7A8      dev-rust
+  U+0E7AA    \uE7AA      dev-sublime
+  U+0E7AF    \uE7AF      dev-dlang
+  U+0E7B0    \uE7B0      dev-docker
+  U+0E7B1    \uE7B1      dev-erlang
+  U+0E7B4    \uE7B4      dev-illustrator
+  U+0E7B5    \uE7B5      dev-intellij
+  U+0E7B8    \uE7B8      dev-photoshop
+  U+0E7BA    \uE7BA      dev-react
+  U+0E7C4    \uE7C4      dev-sqlite
+  U+0E7C5    \uE7C5      dev-vim
+
+== Octicons  (42) ==========================================
+
+  U+02665  ♥  \u2665      oct-heart
+  U+026A1  ⚡  \u26A1      oct-zap
+  U+0F401    \uF401      oct-repo
+  U+0F408    \uF408      oct-mark_github
+  U+0F40E    \uF40E      oct-apps
+  U+0F40F    \uF40F      oct-file_media
+  U+0F410    \uF410      oct-file_zip
+  U+0F411    \uF411      oct-archive
+  U+0F413    \uF413      oct-file_directory
+  U+0F415    \uF415      oct-person
+  U+0F417    \uF417      oct-git_commit
+  U+0F423    \uF423      oct-gear
+  U+0F425    \uF425      oct-tools
+  U+0F42B    \uF42B      oct-organization
+  U+0F431    \uF431      oct-arrow_up
+  U+0F432    \uF432      oct-arrow_right
+  U+0F433    \uF433      oct-arrow_down
+  U+0F434    \uF434      oct-arrow_left
+  U+0F440    \uF440      oct-diff
+  U+0F447    \uF447      oct-device_camera_video
+  U+0F449    \uF449      oct-info
+  U+0F44A    \uF44A      oct-triangle_right
+  U+0F44B    \uF44B      oct-triangle_down
+  U+0F460    \uF460      oct-chevron_right
+  U+0F461    \uF461      oct-bookmark
+  U+0F462    \uF462      oct-sliders
+  U+0F464    \uF464      oct-history
+  U+0F471    \uF471      oct-file_binary
+  U+0F475    \uF475      oct-ellipsis
+  U+0F47C    \uF47C      oct-chevron_down
+  U+0F481    \uF481      oct-file_symlink_file
+  U+0F482    \uF482      oct-file_symlink_directory
+  U+0F489    \uF489      oct-terminal
+  U+0F48A    \uF48A      oct-markdown
+  U+0F48E    \uF48E      oct-trash
+  U+0F498    \uF498      oct-desktop_download
+  U+0F499    \uF499      oct-beaker
+  U+0F49B    \uF49B      oct-cache
+  U+0F49E    \uF49E      oct-check_circle
+  U+0F4A0    \uF4A0      oct-tasklist
+  U+0F4A5    \uF4A5      oct-file
+  U+0F529    \uF529      oct-unlink
+
+== Seti UI (file types)  (37) ==============================
+
+  U+0E600    \uE600      seti-stylus
+  U+0E601    \uE601      seti-project
+  U+0E603    \uE603      seti-sass
+  U+0E604    \uE604      seti-rails
+  U+0E606    \uE606      seti-python
+  U+0E607    \uE607      seti-heroku
+  U+0E608    \uE608      seti-php
+  U+0E609    \uE609      seti-markdown
+  U+0E60A    \uE60A      seti-license
+  U+0E60B    \uE60B      seti-json, seti-less
+  U+0E60C    \uE60C      seti-javascript
+  U+0E60D    \uE60D      seti-image
+  U+0E60E    \uE60E      seti-html
+  U+0E60F    \uE60F      seti-mustache
+  U+0E610    \uE610      seti-gulp
+  U+0E611    \uE611      seti-grunt
+  U+0E613    \uE613      seti-folder
+  U+0E614    \uE614      seti-css
+  U+0E615    \uE615      seti-config
+  U+0E616    \uE616      seti-npm, seti-npm_ignored
+  U+0E618    \uE618      seti-ejs
+  U+0E619    \uE619      seti-xml
+  U+0E61A    \uE61A      seti-bower
+  U+0E61B    \uE61B      seti-cjsx, seti-coffee
+  U+0E61C    \uE61C      seti-twig
+  U+0E61F    \uE61F      seti-haskell
+  U+0E620    \uE620      seti-lua
+  U+0E622    \uE622      seti-karma
+  U+0E623    \uE623      seti-favicon
+  U+0E624    \uE624      seti-julia
+  U+0E625    \uE625      seti-react
+  U+0E627    \uE627      seti-go
+  U+0E628    \uE628      seti-typescript
+  U+0E64E    \uE64E      seti-default, seti-text
+  U+0E681    \uE681      seti-plan
+  U+0E697    \uE697      seti-svelte
+  U+0E6A9    \uE6A9      seti-zig
+
+== Linux/distro logos  (23) ================================
+
+  U+0F300    \uF300      linux-alpine
+  U+0F301    \uF301      linux-aosc
+  U+0F302    \uF302      linux-apple
+  U+0F303    \uF303      linux-archlinux
+  U+0F304    \uF304      linux-centos
+  U+0F305    \uF305      linux-coreos
+  U+0F306    \uF306      linux-debian
+  U+0F307    \uF307      linux-devuan
+  U+0F308    \uF308      linux-docker
+  U+0F309    \uF309      linux-elementary
+  U+0F30A    \uF30A      linux-fedora
+  U+0F30C    \uF30C      linux-freebsd
+  U+0F30D    \uF30D      linux-gentoo
+  U+0F30E    \uF30E      linux-linuxmint
+  U+0F310    \uF310      linux-mageia
+  U+0F312    \uF312      linux-manjaro
+  U+0F313    \uF313      linux-nixos
+  U+0F314    \uF314      linux-opensuse
+  U+0F317    \uF317      linux-sabayon
+  U+0F318    \uF318      linux-slackware
+  U+0F319    \uF319      linux-slackware_inverse
+  U+0F31B    \uF31B      linux-ubuntu
+  U+0F31C    \uF31C      linux-ubuntu_inverse
+
+== Nerd Fonts custom  (19) =================================
+
+  U+0E5FA    \uE5FA      custom-folder_npm
+  U+0E5FB    \uE5FB      custom-folder_git, custom-folder_git_branch
+  U+0E5FC    \uE5FC      custom-folder_config
+  U+0E5FD    \uE5FD      custom-folder_github
+  U+0E5FE    \uE5FE      custom-folder_open
+  U+0E5FF    \uE5FF      custom-folder
+  U+0E602    \uE602      custom-play_arrow, seti-play_arrow
+  U+0E605    \uE605      custom-ruby, seti-ruby
+  U+0E612    \uE612      custom-default
+  U+0E617    \uE617      custom-home, seti-home
+  U+0E61D    \uE61D      custom-cpp
+  U+0E61E    \uE61E      custom-c
+  U+0E626    \uE626      custom-go
+  U+0E62A    \uE62A      custom-windows
+  U+0E62B    \uE62B      custom-vim
+  U+0E62C    \uE62C      custom-elm, seti-elm
+  U+0E62D    \uE62D      custom-elixir, seti-elixir
+  U+0E634    \uE634      custom-kotlin, seti-kotlin
+  U+0E63A    \uE63A      custom-bazel, seti-bazel
+
+== Powerline extra  (15) ===================================
+
+  U+0E0A3    \uE0A3      ple-column_number, ple-current_column
+  U+0E0B4    \uE0B4      ple-right_half_circle_thick
+  U+0E0B5    \uE0B5      ple-right_half_circle_thin
+  U+0E0B6    \uE0B6      ple-left_half_circle_thick
+  U+0E0B7    \uE0B7      ple-left_half_circle_thin
+  U+0E0B8    \uE0B8      ple-lower_left_triangle
+  U+0E0B9    \uE0B9      ple-backslash_separator
+  U+0E0BA    \uE0BA      ple-lower_right_triangle
+  U+0E0BB    \uE0BB      ple-forwardslash_separator
+  U+0E0BC    \uE0BC      ple-upper_left_triangle
+  U+0E0BD    \uE0BD      ple-forwardslash_separator_redundant
+  U+0E0BE    \uE0BE      ple-upper_right_triangle
+  U+0E0BF    \uE0BF      ple-backslash_separator_redundant
+  U+0E0D2    \uE0D2      ple-trapezoid_top_bottom
+  U+0E0D4    \uE0D4      ple-trapezoid_top_bottom_mirrored
+
+== Font Awesome Extension  (13) ============================
+
+  U+0E204    \uE204      fae-soup
+  U+0E20A    \uE20A      fae-thermometer
+  U+0E20B    \uE20B      fae-thermometer_high
+  U+0E20C    \uE20C      fae-thermometer_low
+  U+0E20F    \uE20F      fae-tools
+  U+0E21E    \uE21E      fae-ruby_o
+  U+0E22C    \uE22C      fae-pi
+  U+0E235    \uE235      fae-python
+  U+0E244    \uE244      fae-galery
+  U+0E256    \uE256      fae-java
+  U+0E271    \uE271      fae-disco
+  U+0E28A    \uE28A      fae-book_open
+  U+0E28B    \uE28B      fae-book_open_o
+
+== Pomicons  (11) ==========================================
+
+  U+0E000    \uE000      pom-clean_code
+  U+0E001    \uE001      pom-pomodoro_done
+  U+0E002    \uE002      pom-pomodoro_estimated
+  U+0E003    \uE003      pom-pomodoro_ticking
+  U+0E004    \uE004      pom-pomodoro_squashed
+  U+0E005    \uE005      pom-short_pause
+  U+0E006    \uE006      pom-long_pause
+  U+0E007    \uE007      pom-away
+  U+0E008    \uE008      pom-pair_programming
+  U+0E009    \uE009      pom-internal_interruption
+  U+0E00A    \uE00A      pom-external_interruption
+
+== Powerline  (7) =========================================
+
+  U+0E0A0    \uE0A0      pl-branch
+  U+0E0A1    \uE0A1      pl-current_line, pl-line_number
+  U+0E0A2    \uE0A2      pl-hostname, pl-readonly
+  U+0E0B0    \uE0B0      pl-left_hard_divider
+  U+0E0B1    \uE0B1      pl-left_soft_divider
+  U+0E0B2    \uE0B2      pl-right_hard_divider
+  U+0E0B3    \uE0B3      pl-right_soft_divider
+
+== IEC power symbols  (4) =================================
+
+  U+023FB  ⏻  \u23FB      iec-power
+  U+023FC  ⏼  \u23FC      iec-toggle_power
+  U+023FD  ⏽  \u23FD      iec-power_on
+  U+023FE  ⏾  \u23FE      iec-sleep_mode
+
+== Indentation guides  (1) ================================
+
+  U+0E621    \uE621      indent-dotted_guide, indent-line, indentation-line
+
+== Codicons  (1) ==========================================
+
+  U+0EA76    \uEA76      cod-close
+
+== Unnamed in Nerd Fonts  (100) =============================
+
+  U+0EFFA    \uEFFA      -
+  U+0EFFB    \uEFFB      -
+  U+0EFFC    \uEFFC      -
+  U+0EFFD    \uEFFD      -
+  U+0F53B    \uF53B      -
+  U+0F541    \uF541      -
+  U+0F542    \uF542      -
+  U+0F543    \uF543      -
+  U+0F544    \uF544      -
+  U+0F54B    \uF54B      -
+  U+0F54C    \uF54C      -
+  U+0F553    \uF553      -
+  U+0F55A    \uF55A      -
+  U+0F55B    \uF55B      -
+  U+0F55C    \uF55C      -
+  U+0F578    \uF578      -
+  U+0F579    \uF579      -
+  U+0F57A    \uF57A      -
+  U+0F57B    \uF57B      -
+  U+0F57C    \uF57C      -
+  U+0F57D    \uF57D      -
+  U+0F57E    \uF57E      -
+  U+0F57F    \uF57F      -
+  U+0F580    \uF580      -
+  U+0F581    \uF581      -
+  U+0F582    \uF582      -
+  U+0F583    \uF583      -
+  U+0F584    \uF584      -
+  U+0F585    \uF585      -
+  U+0F586    \uF586      -
+  U+0F587    \uF587      -
+  U+0F588    \uF588      -
+  U+0F589    \uF589      -
+  U+0F58A    \uF58A      -
+  U+0F58B    \uF58B      -
+  U+0F58C    \uF58C      -
+  U+0F58D    \uF58D      -
+  U+0F58E    \uF58E      -
+  U+0F58F    \uF58F      -
+  U+0F590    \uF590      -
+  U+0F5AE    \uF5AE      -
+  U+0F5AF    \uF5AF      -
+  U+0F5B1    \uF5B1      -
+  U+0F5B2    \uF5B2      -
+  U+0F5BC    \uF5BC      -
+  U+0F5BD    \uF5BD      -
+  U+0F5EB    \uF5EB      -
+  U+0F631    \uF631      -
+  U+0F632    \uF632      -
+  U+0F658    \uF658      -
+  U+0F659    \uF659      -
+  U+0F668    \uF668      -
+  U+0F669    \uF669      -
+  U+0F673    \uF673      -
+  U+0F68C    \uF68C      -
+  U+0F6A6    \uF6A6      -
+  U+0F6A7    \uF6A7      -
+  U+0F6B7    \uF6B7      -
+  U+0F6B8    \uF6B8      -
+  U+0F6B9    \uF6B9      -
+  U+0F6FF    \uF6FF      -
+  U+0F713    \uF713      -
+  U+0F718    \uF718      -
+  U+0F71A    \uF71A      -
+  U+0F71C    \uF71C      -
+  U+0F71E    \uF71E      -
+  U+0F722    \uF722      -
+  U+0F724    \uF724      -
+  U+0F72A    \uF72A      -
+  U+0F72B    \uF72B      -
+  U+0F72D    \uF72D      -
+  U+0F74A    \uF74A      -
+  U+0F783    \uF783      -
+  U+0F794    \uF794      -
+  U+0F7B7    \uF7B7      -
+  U+0F7CA    \uF7CA      -
+  U+0F7CB    \uF7CB      -
+  U+0F7CC    \uF7CC      -
+  U+0F7CD    \uF7CD      -
+  U+0F7CF    \uF7CF      -
+  U+0F7D9    \uF7D9      -
+  U+0F7FB    \uF7FB      -
+  U+0F80A    \uF80A      -
+  U+0F816    \uF816      -
+  U+0F81A    \uF81A      -
+  U+0F81F    \uF81F      -
+  U+0F820    \uF820      -
+  U+0F831    \uF831      -
+  U+0F832    \uF832      -
+  U+0F833    \uF833      -
+  U+0F834    \uF834      -
+  U+0F835    \uF835      -
+  U+0F836    \uF836      -
+  U+0F837    \uF837      -
+  U+0F83C    \uF83C      -
+  U+0F886    \uF886      -
+  U+0F89F    \uF89F      -
+  U+0F8D6    \uF8D6      -
+  U+0F8D7    \uF8D7      -
+  U+0F8FE    \uF8FE      -
