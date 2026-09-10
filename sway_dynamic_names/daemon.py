@@ -57,12 +57,15 @@ class Watcher:
         workspaces = tree.workspaces()
         workspace_symbols: Dict[Con, List[Symbol]] = {w: list(self.get_symbols(w)) for w in workspaces}
         workspace_icons = self.compute_workspace_icons(workspace_symbols)
-        for num, workspace in enumerate(workspace_icons.keys()):
-            await self.rename_workspace(workspace, num, workspace_icons[workspace])
+        for workspace in workspace_icons:
+            await self.rename_workspace(workspace, workspace.num, workspace_icons[workspace])
         await self.commit()
 
     async def rename_workspace(self, workspace: Con, num: int, new_name: str):
-        new_name = f"{num}:{new_name}"
+        # ponytail: sway derives a workspace's number from its name, so the prefix
+        # must be the workspace's own num, never an enumeration index.
+        if num is not None and num >= 0:
+            new_name = f"{num}:{new_name}"
         if workspace.name != new_name:
             workspace_name_san = workspace.name.replace('"', '\\"')
             new_name_san = new_name.replace('"', '\\"')
