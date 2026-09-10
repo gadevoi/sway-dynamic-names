@@ -26,13 +26,12 @@ clients:
   "micro .*\\.json$":                "\uE60B"   # seti-json
   "micro .*\\.xml$":                 "\uE619"   # seti-xml
   "micro .*\\.md$":                  "\uE73E"   # dev-markdown
-  "micro .*\\.(ya?ml|toml|ini|conf|cfg)$": "\uE615"   # seti-config
   "micro .*\\.(sh|bash|zsh)$":       "\uE795"   # dev-terminal
   "micro .*\\.sql$":                 "\uE7C4"   # dev-sqlite
   "micro .*\\.vim$":                 "\uE7C5"   # dev-vim
   "micro .*\\.tal$":                 "\uE612"   # custom-default (uxntal)
   "micro .*[Dd]ockerfile.*$":        "\uE7B0"   # dev-docker
-  "micro .*":                        "\uE64E"   # seti-text (any other file)
+  "micro .*":                        "\uF0F6"   # seti-text (any other file)
 
   # --- everything else ----------------------------------------------
   google-chrome-beta: chrome
@@ -46,7 +45,38 @@ clients:
   vlc: play
   signal: comment
   code-oss: code
-  uxn-wl: swap
+  # --- uxn12 roms (needs the patched uxn12 that puts the rom in the title) ---
+  "uxn-wl: drifloon\\.rom$":       "\uF0E7"   # fa-gear  |  or: fa-gears \uF085, fa-code \uF121, fa-flash \uF0E7
+  "uxn-wl: drif\\.rom$":           "\uF0E7"   # fa-gears  |  or: fa-gear \uF013, fa-flash \uF0E7, md-cube_send \uF01A8
+  "uxn-wl: drifblim\\.rom$":       "\uF0E7"   # fa-flash  |  or: fa-gear \uF013, fa-gears \uF085, md-cube_send \uF01A8
+  "uxn-wl: basic\\.rom$":          "\uF120"   # fa-terminal  |  or: fa-code \uF121, dev-terminal \uE795, oct-terminal \uF489
+  "uxn-wl: noodle\\.rom$":         "\uF040"   # fa-pencil  |  or: md-pail \uF1417, fa-picture_o \uF03E, fae-galery \uE244
+  "uxn-wl: oekaki\\.rom$":         "\uF040"   # md-pail  |  or: fa-pencil \uF040, fae-galery \uE244, fa-picture_o \uF03E
+  "uxn-wl: nasu\\.rom$":           "\U000F05C6"   # md-vector_rectangle  |  or: fa-picture_o \uF03E, fa-th_list \uF00B, fae-galery \uE244
+  "uxn-wl: win7\\.rom$":           "\uF07C"   # fa-folder_open  |  or: oct-file_directory \uF413, custom-folder \uE5FF, md-file_tree \uF0645
+  "uxn-wl: nebu\\.rom$":           "\uF00B"   # fa-th_list  |  or: fa-file_excel_o \uF1C3, fa-chart_bar \uF080, oct-tasklist \uF4A0
+  "uxn-wl: calendar\\.rom$":       "\uF073"   # fa-calendar_days  |  or: fa-calendar_o \uF133, md-calendar_clock \uF00F0
+  "uxn-wl: catclock\\.rom$":       "\uF017"   # fa-clock_o  |  or: md-calendar_clock \uF00F0, fa-hourglass_half \uF252 -- no cat glyph in Cozette
+  "uxn-wl: left\\.rom$":           "\uF15C"   # fa-file_text  |  or: fa-pencil \uF040, seti-text \uE64E, fa-file_text_o \uF0F6
+  "uxn-wl: left2024\\.rom$":       "\uF0F6"   # fa-file_text_o  |  or: fa-file_text \uF15C, fa-pencil \uF040, seti-text \uE64E
+  "uxn-wl: notepad\\.rom$":        "\uF016"   # fa-file_o  |  or: fa-book \uF02D, oct-file \uF4A5, seti-text \uE64E
+  "uxn-wl: m291\\.rom$":           "\uF001"   # fa-music  |  or: fa-play \uF04B, md-playlist_play \uF0411, fa-headphones \uF025
+  "uxn-wl: orca\\.rom$":           "\uF292"   # fa-hashtag  |  or: fa-music \uF001, fa-microphone \uF130, pom-clean_code \uE000
+  "uxn-wl: pavol\\.rom$":          "\uF028"   # fa-volume_up  |  or: oct-sliders \uF462, fa-volume_low \uF027, fa-headphones \uF025
+  "uxn-wl: meta\\.rom$":           "\uF05A"   # fa-info_circle  |  or: oct-info \uF449, fa-tag \uF02B, fa-question_circle \uF059
+  "uxn-wl: teatime\\.rom$":        "\uF0F4"   # fa-mug_saucer  |  or: md-timer_sand \uF051F, fa-hourglass_half \uF252, fae-soup \uE204
+  "uxn-wl: cccc\\.rom$":           "\uF5EB"   # fae-pi  |  or: fa-plus \uF067, fa-hashtag \uF292, md-gauge \uF029A -- no calculator glyph
+  "uxn-wl: grail\\.rom$":          "\uF11C"   # fa-keyboard_o  |  or: fa-pencil \uF040, fa-text_width \uF035
+  "uxn-wl: image\\.rom$":          "\uF03E"   # fa-picture_o  |  or: seti-image \uE60D, fae-galery \uE244, fa-file_picture_o \uF1C5
+  "uxn-wl: viewer\\.rom$":         "\uF1C5"   # fa-file_picture_o  |  or: fa-picture_o \uF03E, seti-image \uE60D, fae-galery \uE244
+  "uxn-wl: turye\\.rom$":          "\uF031"   # fa-font  |  or: fa-text_height \uF034, fa-bold \uF032, fa-italic \uF033
+  "uxn-wl: controller\\.rom$":     "\uF1B6"   # fa-steam  |  or: fa-child \uF1AE, oct-apps \uF40E, fa-tachometer \uF0E4 -- no gamepad glyph
+  "uxn-wl: beetbug\\.rom$":        "\uF188"   # fa-bug  |  or: oct-tools \uF425, fa-flask \uF0C3, fae-tools \uE20F
+  "uxn-wl: theme\\.rom$":          "\uF8D7"   # fa-sun_o  |  or: fae-disco \uE271, fa-gears \uF085, md-vector_rectangle \uF05C6 -- no palette glyph
+  "uxn-wl: dexe\\.rom$":           "\uF471"   # oct-file_binary  |  or: fa-microchip \uF2DB, fa-code \uF121, fa-hdd_o \uF0A0
+  "uxn-wl: (.*)":                     # any other rom
+    icon: "\uF833"                   # custom-default
+    extra: "{0}"                      # shows the rom name when two uxn workspaces collide
   m291: play
 deliminator: " "
-default_icon: circle
+default_icon: "·"

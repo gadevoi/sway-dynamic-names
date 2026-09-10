@@ -7,6 +7,14 @@ from i3ipc.events import IpcBaseEvent
 from .config import Config, Symbol, ClientConfig
 
 
+def leaves(con: Con) -> List[Con]:
+    # ponytail: Con.leaves() keeps only type == 'con', but sway reports floating
+    # windows as 'floating_con', so they never got an icon. Key off "is a leaf
+    # that owns a window" instead, which covers wayland (app_id) and xwayland
+    # (window) under either tree shape.
+    return [c for c in con if not c.nodes and (c.app_id or c.window)]
+
+
 class Watcher:
     i3: Connection
 
@@ -36,7 +44,7 @@ class Watcher:
         possible_targets = set()
         current_workspace = None
         for workspace in workspaces:
-            for leaf in workspace.leaves():
+            for leaf in leaves(workspace):
                 if leaf.id == window.id:
                     current_workspace = workspace
                     continue
@@ -65,7 +73,7 @@ class Watcher:
         # ponytail: sway derives a workspace's number from its name, so the prefix
         # must be the workspace's own num, never an enumeration index.
         if num is not None and num >= 0:
-            new_name = f"{num}:{new_name}"
+            new_name = f"{num}: {new_name}"
         if workspace.name != new_name:
             workspace_name_san = workspace.name.replace('"', '\\"')
             new_name_san = new_name.replace('"', '\\"')
@@ -82,7 +90,7 @@ class Watcher:
         return {workspace: self.config.delimiter.join(set(icons)) for workspace, icons in workspace_icons.items()}
 
     def get_symbols(self, workspace: Con):
-        for leaf in workspace.leaves():
+        for leaf in leaves(workspace):
             leaf_symbol = self.get_symbol(leaf)
             if leaf_symbol:
                 yield leaf_symbol
